@@ -1,0 +1,170 @@
+ul{
+  margin-left: -43px;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  
+}
+.inputbox{
+  display: block;
+  margin: 50px;
+  padding: 4px;
+  width: 300px;
+  border: 1px solid green;
+}
+.footer {
+  background-color: green;
+  padding: 20px 0;
+  margin-top: auto;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 0;
+  color: bisque;
+}
+
+
+
+.footer-links li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.footer-links li:first-child {
+  margin-left: 0;
+}
+
+/* .footer {
+  margin-top: 2%;
+  padding: 7px;
+  width: 100%;
+  color: bisque;
+  text-align: center;
+  background-color: green;
+} */
+.nav-ul li a{
+  text-decoration: none;
+  color: bisque;
+}
+.button-login{
+  
+  margin-top: 2px;
+  padding: 2px;
+  width: 7%;
+  background-color: green;
+}
+.from-head-for-login{
+  text-align: center;
+  padding: auto;
+  color: green;
+  margin-top: 50px;
+}
+.button-css{
+  margin-left: 500px;
+  margin-top: 2px;
+  padding: 2px;
+  width: 7%;
+  background-color: green;
+}
+.form{
+  margin-left: 35%;
+}
+.from-head{
+  text-align: center;
+  color: green;
+}
+.login{
+  text-align: center;
+  color: green;
+}
+.logo1{
+  float: left;
+  width: 70px;
+  border-radius: 50%;
+}
+.nav-ul {
+  margin: 0;
+  text-align: right;
+  padding: 5px;
+  background-color: green;
+}
+.App{
+  margin: 5px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: green;
+}
+
+.product-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.product-table th {
+  background-color:green;
+  color: bisque;
+  font-size: 18px;
+  font-weight: bold;
+  text-emphasis-color: green;
+  padding: 10px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.product-table td {
+  border: 1px solid green;
+  padding: -15px ;
+}
+
+/* .product-list{
+  text-align: center;
+  color: green;
+  margin-top: 50px;
+}
+.product-list ul li{
+display: inline-block;
+border: 1px solid green;
+padding: 10px;
+width: 150px;
+}
+.product-list ul{
+  margin: 5;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
